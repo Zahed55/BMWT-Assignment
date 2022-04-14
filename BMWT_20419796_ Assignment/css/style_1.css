@@ -1,0 +1,189 @@
+/*
+Description: Contains the styling for unit outline
+Author: Mukoon Zahed
+Email: m.mukoon@student.curtin.edu.au
+*/
+
+
+/* Table style */
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    
+  }
+  /* Row and column styling */
+  th,td {
+    padding: 15px;
+  }
+  
+  
+  h3 {
+  font-family: helvetica;
+  
+  }
+  
+  hr {
+  width: 500px;
+  }
+  /* body style */
+  body {
+  font-family: helvetica, sans-serif;
+  font-size: 20px;
+  margin: 30px;
+  background-color: rgb(255, 255, 255);
+  }
+
+
+
+
+/* grid container style */
+.grid1-container {
+  display: grid;
+  grid-gap: 1px;
+  background-color: rgb(78, 52, 52);
+  font-family: helvetica;
+  text-align: left;
+  
+}
+
+.grid1-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px;
+  font-size: 20px;
+  text-align: left;
+  
+}
+
+/*  Extending column in the grid */
+.item1 {
+  grid-column: 1 / span 3;
+}
+
+.item4 {
+  grid-column-end: span 2;
+}
+
+.item7 {
+grid-column-end: span 2;}
+
+.item10 {
+  grid-column-end: span 2;
+}
+
+.item13 {
+  grid-column-end: span 2;
+}
+
+.item16 {
+  grid-column-end: span 2;
+}
+
+.item2 {
+  grid-column-start: 4;
+}
+
+
+table, th, td {
+  border:1px solid black;
+  border-collapse: collapse;
+  
+}
+  
+table, th, td {
+  border:1px solid black;
+  
+}
+
+table, th, td {
+  border:1px solid black;
+}
+    
+
+table, th, td {
+  border:1px solid black;
+  border-collapse: collapse;
+}
+  
+html {
+  font-size: 50%;
+  scroll-behavior: smooth;
+}
+
+/* User do not toggle button */
+.no-select {
+  user-select: none;
+}
+/* style of button container */
+.container {
+  margin: 15rem auto;
+  width:300px;
+  border-radius: 1rem;
+  box-shadow: 0.6rem 0.1rem 3rem 0.7rem rgb(196, 194, 194);
+  padding: 1rem;
+
+}
+
+.text-center {
+  text-align: center;
+}
+/* container button style */
+.container__widget--button {
+  border: none;
+  outline: none;
+  background-color: inherit;
+  border: 1px solid rgb(204, 204, 204);
+  padding: 0.9rem 1.5rem;
+  border-radius: 0.5rem;
+  font-family: inherit;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: inherit;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.container__widget--button:hover {
+  box-shadow: 0rem 0.1rem 1.5rem 0rem rgb(133, 133, 133);
+}
+
+.container__textview {
+  margin-top: 1.5rem;
+}
+
+.container__textview--title {
+  font-family: inherit;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: inherit;
+  margin-bottom: 0.5rem;
+}
+
+.container__textview--smtext {
+  font-family: inherit;
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: inherit;
+}
+
+@media screen and (max-width: 800px) {
+  .container {
+      width: 100%;
+      box-shadow: none;
+      margin: 10rem auto;
+  }
+}
+/* light theme style */
+.theme-light {
+  background-color: #fff;
+  color: rgb(107, 107, 107);
+  transition: all 0.3s;
+}
+/* Dark theme style */
+.theme-dark {
+  color: #fff;
+  background-color: #3e4652;
+  transition: all 0.3s;
+}
